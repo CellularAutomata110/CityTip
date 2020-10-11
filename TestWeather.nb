@@ -1,0 +1,85 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2482,         75]
+NotebookOptionsPosition[      2127,         61]
+NotebookOutlinePosition[      2529,         77]
+CellTagsIndexPosition[      2486,         74]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"basicWeather", "[", "city_", "]"}], ":=", 
+  RowBox[{"Framed", "[", 
+   RowBox[{
+    RowBox[{"Grid", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"city", ",", "SpanFromLeft"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"IconData", "[", 
+           RowBox[{"\"\<AirTemperature\>\"", ",", 
+            RowBox[{"WeatherData", "[", 
+             RowBox[{"city", ",", "\"\<Temperature\>\""}], "]"}]}], "]"}], 
+          ",", 
+          RowBox[{"IconData", "[", 
+           RowBox[{"\"\<RelativeHumidity\>\"", ",", 
+            RowBox[{"WeatherData", "[", 
+             RowBox[{"city", ",", "\"\<Humidity\>\""}], "]"}]}], "]"}]}], 
+         "}"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"IconData", "[", 
+           RowBox[{"\"\<WindSpeed\>\"", ",", 
+            RowBox[{"WeatherData", "[", 
+             RowBox[{"city", ",", "\"\<WindSpeed\>\""}], "]"}]}], "]"}], ",", 
+          "\[IndentingNewLine]", 
+          RowBox[{"IconData", "[", 
+           RowBox[{"\"\<MoonPhase\>\"", ",", 
+            RowBox[{"MoonPhase", "[", "Today", "]"}]}], "]"}]}], "}"}]}], 
+       "}"}], ",", " ", 
+      RowBox[{"ItemSize", "\[Rule]", "10"}]}], "]"}], ",", 
+    RowBox[{"RoundingRadius", "\[Rule]", "5"}], ",", " ", 
+    RowBox[{"FrameStyle", "\[Rule]", 
+     RowBox[{"AbsoluteThickness", "[", "30", "]"}]}]}], "]"}]}]], "Input",
+ CellLabel->
+  "(Debug) In[137]:=",ExpressionUUID->"35122df8-774a-4c0d-80a9-1c4afe8e22a3"]
+},
+WindowSize->{1135.8, 574.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 18, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"05de81e8-c2c4-4e21-b255-600ed1b11c6e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1565, 39, 169, "Input",ExpressionUUID->"35122df8-774a-4c0d-80a9-1c4afe8e22a3"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
